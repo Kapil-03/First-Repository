@@ -22,7 +22,7 @@ div{
     left: 600px;
     border-radius: 50%;
     border: 20px solid black;
-    border-top: 20px solid rgb(255, 0, 0);
+    border-top: 20px solid rgb(255, 255, 255);
     animation: spin  0.5s linear 0s infinite normal;
 }
 @keyframes spin{
