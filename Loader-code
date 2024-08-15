@@ -5,29 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="style.css">
-</head>
+</head> 
 <body>
-  <div class="loader">Box 2</div>
+  <div class="loader">Box 1</div>
 </body>
 </html>
 
 /**HTML Code**/
-
-div{
-    height: 200px;
-    width: 200px;
-    background-color: rgb(255, 255, 255);
-    position: absolute;
-    top: 200px;
-    left: 600px;
-    border-radius: 50%;
-    border: 20px solid black;
-    border-top: 20px solid rgb(255, 255, 255);
-    animation: spin  0.5s linear 0s infinite normal;
-}
-@keyframes spin{
-    from{rotate: 0deg;}
-    to{rotate: 360deg;}
-}
-
-/** CSS Stylesheet **/
